@@ -6,7 +6,7 @@ This repo shows one possibility to structure a Gradle project when you want:
 - **No dependency hell** through smart dependency management with dependency rules and analysis
 
 There are four variations of this available:
-- How to set up a Gradle [project for **Java**](https://github.com/jjohannes/gradle-project-setup-howto/tree/main)
+- How to set up a Gradle [project for **Java**](https://github.com/jjohannes/gradle-project-setup-howto/tree/java_classic)
 - How to set up a Gradle [project for **Android**](https://github.com/jjohannes/gradle-project-setup-howto/tree/android)
 - How to set up a Gradle [project for **Java Module System**](https://github.com/jjohannes/gradle-project-setup-howto/tree/java_module_system)
 - How to set up a Gradle [project for **Kotlin**](https://github.com/jjohannes/gradle-project-setup-howto/tree/kotlin)
