@@ -1,0 +1,5 @@
+pluginManagement {
+    repositories.maven { url = 'https://plugins.gradle.org/m2' }
+    repositories.maven { url = 'https://gradle.onepiece.software:1443/releases' }
+}
+plugins { id 'software.onepiece.j' version '0.0.20' }
