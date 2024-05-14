@@ -150,6 +150,9 @@ The task generates a [PlantUML](https://plantuml.com) file that you can render, 
 - [Dependency Analysis: How to remove dependencies added by plugins?](https://github.com/jjohannes/gradle-project-setup-howto/issues/15)
 - [How many convention plugins should be used?](https://github.com/jjohannes/gradle-project-setup-howto/issues/10)
 - [How to customize the wrapper task?](https://github.com/jjohannes/gradle-project-setup-howto/issues/12)
+- [What are good practices when publishing libraries (API consistency, multiple variants, transitives)?](https://github.com/jjohannes/gradle-project-setup-howto/issues/17)
 - [Kotlin branch: Why is there a special handling of kotlin-stdlib?](https://github.com/jjohannes/gradle-project-setup-howto/issues/13)
+- [Kotlin branch: How to avoid the 'The Kotlin Gradle plugin was loaded multiple times' error?](https://github.com/jjohannes/gradle-project-setup-howto/issues/19)
+- [Spring branch: Why does the example not use the Spring Boot Dependency Management plugin?](https://github.com/jjohannes/gradle-project-setup-howto/issues/20)
 
 More questions or points you would like to discuss? Please [open an issue](https://github.com/jjohannes/gradle-project-setup-howto/issues/new).
