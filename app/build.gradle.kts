@@ -1,9 +1,9 @@
 plugins {
-    id("org.example.application")
+    id("org.example.gradle.application")
 }
 
 application {
-    mainClass.set("org.example.product.app.Application")
+    mainClass = "org.example.product.app.Application"
 }
 
 dependencies {
@@ -24,6 +24,7 @@ dependencies {
 
     testImplementation("org.junit.jupiter:junit-jupiter-api")
 
+    // Complicated notation... upvote: https://github.com/gradle/gradle/issues/25629
     endToEndTestImplementation(project(path)) { capabilities { requireCapabilities("${project.group}:${project.name}-mock-api") } }
     endToEndTestImplementation("com.google.guava:guava")
     endToEndTestImplementation("org.junit.jupiter:junit-jupiter-api")

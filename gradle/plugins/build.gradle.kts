@@ -1,3 +1,15 @@
 plugins {
-    id("org.example.plugin-analysis")
+    `kotlin-dsl`
+}
+
+repositories {
+    gradlePluginPortal()
+}
+
+dependencies {
+    implementation("com.autonomousapps:dependency-analysis-gradle-plugin:1.32.0")
+    implementation("com.gradle:develocity-gradle-plugin:3.17.2")
+    implementation("io.fuchs.gradle.classpath-collision-detector:classpath-collision-detector:0.3")
+    implementation("org.cyclonedx:cyclonedx-gradle-plugin:1.8.2")
+    implementation("org.gradlex:jvm-dependency-conflict-resolution:2.1")
 }

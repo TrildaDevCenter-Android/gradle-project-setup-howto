@@ -1,5 +1,6 @@
 plugins {
-    id("org.example.java-library-published")
+    id("org.example.gradle.java-library")
+    id("org.example.gradle.java-publish")
 }
 
 dependencies {

@@ -1,5 +1,6 @@
 plugins {
-    id("org.example.java-library-with-test-fixtures")
+    id("org.example.gradle.java-library")
+    id("org.example.gradle.java-test-fixtures")
 }
 
 dependencies {

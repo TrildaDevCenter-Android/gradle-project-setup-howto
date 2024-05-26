@@ -4,15 +4,13 @@ jobs:
   gradle-build:
     runs-on: ubuntu-latest
     steps:
-      - name: git clone
-        uses: actions/checkout@v3.5.2
-      - name: Set up JDK
-        uses: actions/setup-java@v3.11.0
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
         with:
           distribution: temurin
-          java-version: 17
-      - name: gradle build
-        id: gradle
-        uses: gradle/gradle-build-action@v2.4.2
-        with:
-          arguments: build
+          java-version-file: gradle/jdk-version.txt
+      - uses: gradle/actions/setup-gradle@v3
+      - run: "./gradlew quickCheck"
+      - run: "./gradlew test"
+      - run: "./gradlew endToEndTest"
+      - run: "./gradlew endToEndTestSlow"

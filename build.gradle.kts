@@ -1,3 +1,3 @@
 plugins {
-    id("org.example.root")
+    id("org.example.gradle.root")
 }
